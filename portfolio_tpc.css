@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #00111c;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.logo{
+    border: 2px solid none;
+    margin-top: 25px;
+    color: #b60854;
+    /* color: rgb(0, 66, 94); */
+    font-size: 45px;
+    font-weight: 500;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid none;
+    margin-top: 40px;
+    list-style: none;
+}
+
+li{
+    color: #fff;
+    margin: 0 20px;
+}
+
+li:hover{
+    color: #b60854;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 150px 0;
+    gap: 20px;
+}
+
+.left{
+    border: 1px solid red;
+    width: 40%;
+    height: 400px;
+    color: #fff;
+}
+
+.right{
+    border: 1px solid green;
+    width: 40%;
+    height: 400px;
+    justify-items: center;
+    /* align-content: center; */
+}
+
+.inner_right{
+    border: 1px solid white;
+    /* margin: 50px; */
+    background-image: url("portfolio_tpcimg.png");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
