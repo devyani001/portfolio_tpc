@@ -18,6 +18,8 @@ nav{
     /* color: rgb(0, 66, 94); */
     font-size: 45px;
     font-weight: 500;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'poppins', sans-serif;
 }
 
 ul{
@@ -44,29 +46,53 @@ li:hover{
     justify-content: center;
     margin: 150px 0;
     gap: 20px;
+    border: 1px solid red;
 }
 
 .left{
-    border: 1px solid red;
+    border: 1px solid none;
     width: 40%;
     height: 400px;
     color: #fff;
+    padding-top: 20px;
+}
+
+h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 42px;
+}
+
+.wd{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
 }
 
 .right{
-    border: 1px solid green;
-    width: 40%;
+    border: 1px solid none;
+    width: 30%;
     height: 400px;
     justify-items: center;
     /* align-content: center; */
 }
 
 .inner_right{
-    border: 1px solid white;
+    border: 1px solid none;
     /* margin: 50px; */
     background-image: url("portfolio_tpcimg.png");
     background-position: center;
     background-size: cover;
-    height: 250px;
-    width: 250px;
+    height: 280px;
+    width: 280px;
+}
+
+.about_left{
+    border: 1px solid yellow;
+    width: 25%;
+    height: 300px;
+}
+
+.about_right{
+    border: 1px solid white;
+    width: 50%;
+    height: 300px;
 }
