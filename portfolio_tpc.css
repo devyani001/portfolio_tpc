@@ -46,7 +46,7 @@ li:hover{
     justify-content: center;
     margin: 150px 0;
     gap: 20px;
-    border: 1px solid none;
+    border: 1px solid red;
 }
 
 .left{
@@ -139,6 +139,82 @@ p{
     font-size: 14px;
 }
 
+.tab-contents ul{
+    display: inline;
+}
+
+.tab-contents li:hover{
+    color: #fff;
+    cursor: default;
+}
+
 .tab-contents{
-     
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+/* services */
+
+.services-container{
+    border: 1px solid pink;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    border: 1px solid green;
+    font-family: 'poppins', sans-serif;
+}
+
+.service-heading{
+    color: #fff;
+    margin-left: 150px;
+}
+
+.web-design{
+    /* height: 200px; */
+    width: 400px;
+    border: 1px solid yellow;
+    padding: 0 50px 20px 50px;
+}
+
+.web-design:hover{
+    background-color: #b60854;
+    cursor: pointer;
+}
+
+.graphics{
+    /* height: 200px; */
+    width: 400px;
+    border: 1px solid white;
+    padding: 0 50px 20px 50px;
+}
+
+.graphics:hover{
+    background-color: #b60854;
+    cursor: pointer;
+    /* transition: left 0.5s; */
+
+}
+
+i{
+    border: 1px solid blue;
+    margin: 50px 0 20px 0;
+    font-size: 50px;
+    color: #fff;
+}
+
+.web-heading{
+    color: #fff;
+    
+}
+
+.graphics-heading{
+    color: #fff;
+    
 }

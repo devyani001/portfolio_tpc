@@ -24,7 +24,7 @@
         <div class="container">
             <div class="left">
                 <p class="wd">Web Developer / Graphics Designer</p>
-                <h1>Hi, I'm <span style="color: #b60854;">Devyani</span></h1>
+                <h1>Hi, I'm < <span style="color: #b60854;">Devyani </span>></h1>
                 <h1>Choudhari From Wardha</h1>
             </div>
             <div class="right">
@@ -43,21 +43,74 @@
                     Beyond academics and coding, I'm a huge Kabaddi enthusiast.</p>
 
                 <div class="tab-titles">
-                    <div class="tab-links">Skills</div>
-                    <div class="tab-links">Experience</div>
-                    <div class="tab-links">Education</div>
+                    <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                    <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
                 </div>
 
-                <div class="tab-contents">
+                <div class="tab-contents active-tab" id="skills"> <!--here onclink skills and id ="skills" name should be same-->
                     <ul>
                         <li><span>Programming Languages</span><br>C / C++ and Python</li>
                         <li><span>Front-End Languages</span><br>HTML, CSS and JavaScript (basic)</li>
                     </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Programming Languages</span><br>C / C++ and Python</li>
+                        <li><span>Front-End Languages</span><br>HTML, CSS and JavaScript (basic)</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Programming Languages</span><br>C / C++ and Python</li>
+                        <li><span>Front-End Languages</span><br>HTML, CSS and JavaScript (basic)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="services-container">
+            <h1 class="service-heading">My Services</h1>
+            <div class="services">
+                <div class="web-design">
+                    <i class="fa-solid fa-code"></i>
+                    <h2 class="web-heading">Web Design</h2>
+                    <p>I create visually appealing and user-friendly website layouts, focusing on responsive designs that provide seamless functionality and an engaging user experience.</p>
+                </div>
+                <div class="graphics">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2 class="graphics-heading">Graphics Design</h2>
+                    <p> I design creative visuals such as logos, flyers, banners, and thumbnails along with video editing combining artistic skills with branding to deliver impactful and professional designs.</p>
                 </div>
             </div>
         </div>
     </header>
 
     <footer></footer>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-tab");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script src="https://kit.fontawesome.com/8fdcd62239.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
