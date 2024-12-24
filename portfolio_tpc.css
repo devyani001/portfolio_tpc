@@ -46,7 +46,7 @@ li:hover{
     justify-content: center;
     margin: 150px 0;
     gap: 20px;
-    border: 1px solid red;
+    border: 1px solid none;
 }
 
 .left{
@@ -159,7 +159,7 @@ p{
 /* services */
 
 .services-container{
-    border: 1px solid pink;
+    border: 1px solid none;
 }
 
 .services{
@@ -167,43 +167,50 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     gap: 150px;
-    border: 1px solid green;
+    border: 1px solid none;
     font-family: 'poppins', sans-serif;
 }
 
 .service-heading{
     color: #fff;
-    margin-left: 150px;
+    margin: 0 0 100px 150px;
 }
 
 .web-design{
     /* height: 200px; */
     width: 400px;
-    border: 1px solid yellow;
+    border: 1px solid none;
     padding: 0 50px 20px 50px;
+    box-shadow: 2px 2px 5px gray;
+    background-color: #212d40;
 }
 
 .web-design:hover{
-    background-color: #b60854;
+    background-color: #52697d;
     cursor: pointer;
+    font-size: 18px;
+    width: 410px;
 }
 
 .graphics{
     /* height: 200px; */
     width: 400px;
-    border: 1px solid white;
+    border: 1px solid none;
     padding: 0 50px 20px 50px;
+    box-shadow: 2px 2px 5px gray;
+    background-color: #212d40;
 }
 
 .graphics:hover{
-    background-color: #b60854;
+    background-color: #52697d;
     cursor: pointer;
     /* transition: left 0.5s; */
-
+    font-size: 18px;
+    width: 410px;
 }
 
 i{
-    border: 1px solid blue;
+    border: 1px solid none;
     margin: 50px 0 20px 0;
     font-size: 50px;
     color: #fff;
@@ -217,4 +224,9 @@ i{
 .graphics-heading{
     color: #fff;
     
+}
+
+.box{
+    height: 500px;
+    width: 500px;
 }
