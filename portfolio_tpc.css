@@ -173,7 +173,7 @@ p{
 
 .service-heading{
     color: #fff;
-    margin: 0 0 100px 150px;
+    margin: 0 0 70px 150px;
 }
 
 .web-design{
@@ -226,7 +226,25 @@ i{
     
 }
 
-.box{
-    height: 500px;
-    width: 500px;
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.project{
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    /* display: none; */
+}
+
+#brainhub{
+    
+    color: transparent;
+}
+
+#brainhub:hover{
+    color: whitesmoke;
 }
