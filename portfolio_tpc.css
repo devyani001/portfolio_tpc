@@ -242,9 +242,10 @@ i{
 }
 
 .project{
-    height: 300px;
+    height: 270px;
     width: 300px;
-    border: 1px solid red;
+    border: 1px solid none;
+    box-shadow: 2px 2px 6px grey;
     /* display: none; */
 }
 
@@ -253,7 +254,86 @@ i{
     color: transparent;
 }
 
-#brainhub:hover{
-    color: whitesmoke;
+#bh{
+    margin: 8px 50px;
+    font-size: 18px;
 }
 
+#brainhub-pjt:hover{
+    background-image: url("https://www.wallpaperflare.com/static/851/7/820/scrolls-drawing-engineering-architecture-wallpaper.jpg");
+}
+
+#pjt-id{
+    margin: 38px 120px;
+}
+
+.pjt{
+    text-align: center;
+    padding-top: 42px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#portfolio:hover{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.XbhIGO49XCjhHxsWmFBtrAHaEK&pid=Api&P=0&h=180");
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+#udacity:hover{
+    background-image: url("https://www.cloudways.com/blog/wp-content/uploads/clone-website.jpg");
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+/* contact */
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    justify-content: center;
+    gap: 50px;
+    margin: 400px 0 0 0;
+}
+
+.contact-box{
+    border: 1px solid green;
+    /* height: 300px; */
+    width: 500px;
+    color: #fff;
+    font-size: 16px;
+    word-spacing: 2px;
+    font-family: 'poppins', sans-serif;
+}
+
+.contact-heading{
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.fa-envelope{
+    color:#ff004f;
+    padding-bottom: 20px;
+    margin: 0 20px 0 0;
+    font-size: 30px;
+}
+
+.fa-phone{
+    color:#ff004f;
+    padding-bottom: 20px;
+    margin: 0 20px 0 0;
+    font-size: 30px;
+}
+
+.fa-brands{
+    color:#fff;
+    padding-bottom: 20px;
+    margin: 30px 15px 0 0;
+    font-size: 30px;
+}

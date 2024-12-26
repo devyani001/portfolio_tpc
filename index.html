@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devyani's Portfolio</title>
     <link rel="stylesheet" href="portfolio_tpc.css">
 </head>
+
 <body>
     <nav>
         <div class="logo">P<span style="color: #fff;">ortfolio</span></div>
         <div class="navlinks">
             <ul>
-                <a href="index.html"><li>Home</li></a>
-                <a href="#about"><li>About</li></a>
-                <a href="#servicess"><li>Services</li></a>
-                <a href="#about"><li>Portfolio</li></a>
-                <a href="#about"><li>Contact</li></a>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="#about">
+                    <li>About</li>
+                </a>
+                <a href="#servicess">
+                    <li>Services</li>
+                </a>
+                <a href="#about">
+                    <li>Portfolio</li>
+                </a>
+                <a href="#about">
+                    <li>Contact</li>
+                </a>
             </ul>
         </div>
     </nav>
@@ -29,7 +41,7 @@
             </div>
             <div class="right">
                 <div class="inner_right">
-                    
+
                 </div>
             </div>
         </div>
@@ -38,8 +50,13 @@
             <div class="about_left"></div>
             <div class="about_right">
                 <h1 class="about">About</h1>
-                <p>Hi, I'm Devyani, a second-year B.Tech student in the department of Information Technology with a passion for coding and problem-solving. I have hands-on experience in programming languages like C, C++, HTML, CSS, basic JavaScript, and Python. My academic foundation is strengthened by studying core subjects such as Operating Systems and Object-Oriented Programming. <br>
-                    One of my proudest achievements is creating <b style="color: #b60854;">BrainHub</b>, a platform designed to help first-year engineering students access past year question papers. It reflects my commitment to developing solutions that make a difference in people's lives.
+                <p>Hi, I'm Devyani, a second-year B.Tech student in the department of Information Technology with a
+                    passion for coding and problem-solving. I have hands-on experience in programming languages like C,
+                    C++, HTML, CSS, basic JavaScript, and Python. My academic foundation is strengthened by studying
+                    core subjects such as Operating Systems and Object-Oriented Programming. <br>
+                    One of my proudest achievements is creating <b style="color: #b60854;">BrainHub</b>, a platform
+                    designed to help first-year engineering students access past year question papers. It reflects my
+                    commitment to developing solutions that make a difference in people's lives.
                     Beyond academics and coding, I'm a huge Kabaddi enthusiast.</p>
 
                 <div class="tab-titles">
@@ -48,7 +65,8 @@
                     <div class="tab-links" onclick="opentab('education')">Education</div>
                 </div>
 
-                <div class="tab-contents active-tab" id="skills"> <!--here onclink skills and id ="skills" name should be same-->
+                <div class="tab-contents active-tab" id="skills">
+                    <!--here onclink skills and id ="skills" name should be same-->
                     <ul>
                         <li><span>Programming Languages</span><br>C / C++ and Python</li>
                         <li><span>Front-End Languages</span><br>HTML, CSS and JavaScript (basic)</li>
@@ -72,19 +90,22 @@
             </div>
         </div>
 
-        
+
         <div class="services-container" id="servicess">
             <h1 class="service-heading">My Services</h1>
             <div class="services">
                 <div class="web-design">
                     <i class="fa-solid fa-code"></i>
                     <h2 class="web-heading">Web Design</h2>
-                    <p>I create visually appealing and user-friendly website layouts, focusing on responsive designs that provide seamless functionality and an engaging user experience.</p>
+                    <p>I create visually appealing and user-friendly website layouts, focusing on responsive designs
+                        that provide seamless functionality and an engaging user experience.</p>
                 </div>
                 <div class="graphics">
                     <i class="fa-solid fa-pen-nib"></i>
                     <h2 class="graphics-heading">Graphics Design</h2>
-                    <p> I design creative visuals such as logos, flyers, banners, and thumbnails along with video editing combining artistic skills with branding to deliver impactful and professional designs.</p>
+                    <p> I design creative visuals such as logos, flyers, banners, and thumbnails along with video
+                        editing combining artistic skills with branding to deliver impactful and professional designs.
+                    </p>
                 </div>
             </div>
         </div>
@@ -92,29 +113,65 @@
         <div class="work">
             <h1 class="service-heading" style="margin: 200px 0 70px 150px;">My Work</h1>
             <div class="projects">
-                <div class="project" id="brainhub">
-                    <i class="fa-solid fa-up-right-from-square"></i>
-                    <br>BrainHub
+                <div class="project" id="brainhub-pjt">
+                    <p class="pjt" id="bh">BrainHub <br>- your study companion</p>
+                    <i class="fa-solid fa-up-right-from-square" id="pjt-id"></i>
+
                 </div>
-                <div class="project" id="portfolio"><i class="fa-solid fa-up-right-from-square"></i>Portfolio Website</div>
-                <div class="project" id="udacity"><i class="fa-solid fa-up-right-from-square"></i>Udacity Clone</div>
+                <div class="project" id="portfolio">
+                    <p class="pjt">Portfolio Website</p>
+                    <a href="google.com">
+                        <i class="fa-solid fa-up-right-from-square" id="pjt-id"></i>
+                    </a>
+                </div>
+                <div class="project" id="udacity">
+                    <p class="pjt">Udacity Clone</p>
+                    <i class="fa-solid fa-up-right-from-square" id="pjt-id"></i>
+
+                </div>
             </div>
         </div>
 
     </header>
 
-    <footer></footer>
+
+
+
+
+    <footer>
+
+        <div class="contact">
+            <div class="contact-box" id="contact-left">
+                <p class="contact-heading">Contact Me</p>
+                <i class="fa-solid fa-envelope"></i>
+                devyani@gmail.com
+                <br>
+                <i class="fa-solid fa-phone"></i>
+                9579227402
+                <br>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                
+            </div>
+            <div class="contact-box" id="contact-right">
+                
+            </div>
+        </div>
+
+    </footer>
 
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname){
-            for(tablink of tablinks){
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
 
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
 
@@ -126,4 +183,5 @@
     <script src="https://kit.fontawesome.com/8fdcd62239.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
