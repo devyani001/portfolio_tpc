@@ -130,12 +130,18 @@ p{
     font-weight: 500;
     cursor: pointer;
     color: #fff;
+    margin-top: 50px;
     font-family: 'poppins', sans-serif;
+}
+
+.tab-links:hover{
+    color: #ff004f;
 }
 
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    padding: 7px 0;
 }
 
 .tab-contents ul li span{
@@ -233,6 +239,10 @@ i{
 
 /* project page */
 
+.fa-up-right-from-square{
+    color: #ff004f;
+}
+
 .projects{
     display: flex;
     flex-wrap: wrap;
@@ -251,7 +261,7 @@ i{
 
 #brainhub{
 
-    color: transparent;
+    
 }
 
 #bh{
@@ -260,7 +270,11 @@ i{
 }
 
 #brainhub-pjt:hover{
-    background-image: url("https://www.wallpaperflare.com/static/851/7/820/scrolls-drawing-engineering-architecture-wallpaper.jpg");
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.8mUGywKHfkC7cZaf5yOKBgHaK7&pid=Api&P=0&h=180");
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
 }
 
 #pjt-id{
@@ -272,6 +286,11 @@ i{
     padding-top: 42px;
     font-weight: 500;
     font-size: 25px;
+    
+}
+
+.project:hover{
+    color: transparent;
 }
 
 #portfolio:hover{
@@ -283,7 +302,7 @@ i{
 }
 
 #udacity:hover{
-    background-image: url("https://www.cloudways.com/blog/wp-content/uploads/clone-website.jpg");
+    background-image: url("https://www.accuwebhosting.com/blog/wp-content/uploads/2022/06/clone-wordpress-site-scaled.jpg");
     cursor: pointer;
     background-size: cover;
     background-position: center;
@@ -295,25 +314,30 @@ i{
 .contact{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;
+    border: 1px solid none;
     justify-content: center;
     gap: 50px;
     margin: 400px 0 0 0;
 }
 
 .contact-box{
-    border: 1px solid green;
+    border: 1px solid none;
     /* height: 300px; */
-    width: 500px;
+    width: 700px;
     color: #fff;
     font-size: 16px;
     word-spacing: 2px;
     font-family: 'poppins', sans-serif;
 }
 
+#contact-left{
+    width: 400px;
+}
+
 .contact-heading{
     color: #fff;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 2px;
     font-size: 35px;
 }
 
@@ -336,4 +360,44 @@ i{
     padding-bottom: 20px;
     margin: 30px 15px 0 0;
     font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-brands:hover{
+    /* background-color: #ff004f; */
+}
+
+form input, form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #212d40;
+    box-shadow: 2px 2px 5px gray;
+    padding: 13px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    font-family: 'poppins', sans-serif;
+
+}
+
+button{
+    padding: 12px 48px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ff004f;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #212d40;
+    
+    font-weight: 300;
+    margin-top: 20px;
 }
