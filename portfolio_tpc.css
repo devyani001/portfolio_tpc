@@ -230,11 +230,15 @@ i{
     
 }
 
+
+/* project page */
+
 .projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
+    
 }
 
 .project{
@@ -245,10 +249,11 @@ i{
 }
 
 #brainhub{
-    
+
     color: transparent;
 }
 
 #brainhub:hover{
     color: whitesmoke;
 }
+
